@@ -1,3 +1,36 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.twit,.git,.in,.mail,.ga{
+  margin-top:80vh;
+}
+h1{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 200%);
+  font-size: 6vh;
+}
+.vid{
+  width: 25%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 2vw;
+  opacity: 1;
+  transition: all .5s;
+}
+.vid:hover{
+  opacity: 0.4;
+}
+.one{
+  left: 10%;
+}
+.two{
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.tre{
+  right: 10%;
+}
+
