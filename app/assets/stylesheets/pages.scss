@@ -2,14 +2,33 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.twit,.git,.in,.mail,.ga{
+.twit,.git,.in,.ga,.tube{
   margin-top:80vh;
+  transition: all 0.5s;
+  &:hover{
+    opacity: 0.4;
+  }
+}
+a{
+  text-decoration: none;
+}
+.twit{
+  color:#33CCFF;
+}
+.git{
+  color:#000;
+}
+.in{
+  color:#034078;
+}
+.tube{
+  color: #FF3333;
 }
 h1{
   position: absolute;
   left: 50%;
-  transform: translate(-50%, 200%);
-  font-size: 6vh;
+  transform: translate(-50%, 120%);
+  letter-spacing: 20px;
 }
 .vid{
   width: 25%;
@@ -17,8 +36,8 @@ h1{
   top: 50%;
   transform: translateY(-50%);
   border-radius: 2vw;
-  opacity: 1;
   transition: all .5s;
+  z-index: 1;
 }
 .vid:hover{
   opacity: 0.4;

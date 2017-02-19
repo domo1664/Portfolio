@@ -13,14 +13,14 @@
  *= require_tree .
  *= require_self
  */
-@import 'bootstrap-sprockets';
-@import 'bootstrap';
 @import "font-awesome-sprockets";
 @import "font-awesome";
 html,body,h1{
   margin: 0;
   padding: 0;
-  background: #2A2D30;
-  font-family: 'Bungee Shade', cursive;
-  color: #003b49;
+  background: #2A2D34;
+  font-family: 'Arvo', serif;
+  color: #2F52E0;
+  font-size: 10vh;
+  cursor: crosshair;
 }
