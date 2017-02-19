@@ -12,6 +12,7 @@ gem 'rails', '~> 5.0.1'
 gem 'sqlite3'
 #font awesome
 gem 'font-awesome-sass'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
